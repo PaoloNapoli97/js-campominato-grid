@@ -36,7 +36,10 @@ footer {
 }
 
 .button {
-    margin-left: 20px;
+    padding: 2px 20px;
+}
+
+#myForm{
     padding: 2px 20px;
 }
 
@@ -64,9 +67,9 @@ footer {
     border: 1px solid black;
 }
 
-.camp-cell-8{
-    width: calc(100% / 8);
-    height: calc(100% / 8);
+.camp-cell-7{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     border: 1px solid black;
 }
 
