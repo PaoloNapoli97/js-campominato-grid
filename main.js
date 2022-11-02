@@ -4,6 +4,8 @@ const campContainer = document.querySelector(".camp-container");
 let campSize = 0;
 let classAdd = "";
 
+// Richiamo e modifica funzione a seconda esigenze durante il click bottone
+
 document.getElementById('play').addEventListener('click', function(){
     const difficulty = document.getElementById('difficulty').value;
     if ( difficulty == "easy"){
@@ -22,7 +24,6 @@ document.getElementById('play').addEventListener('click', function(){
         camp(campSize);
     }
 })
-
 
 function camp(campSize){
     campContainer.innerHTML = "";
