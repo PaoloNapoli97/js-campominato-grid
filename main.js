@@ -1,7 +1,6 @@
 "use strict";
 
 const campContainer = document.querySelector(".camp-container");
-let campSize = 0;
 let classAdd = "";
 
 // Richiamo e modifica funzione a seconda esigenze durante il click bottone
@@ -9,19 +8,16 @@ let classAdd = "";
 document.getElementById('play').addEventListener('click', function(){
     const difficulty = document.getElementById('difficulty').value;
     if ( difficulty == "easy"){
-        campSize = 100;
         classAdd = "camp-cell-10";
-        camp(campSize);
+        camp(100);
     }
     else if ( difficulty == "normal"){
-        campSize = 81;
         classAdd = "camp-cell-9";
-        camp(campSize);
+        camp(81);
     }
     else if ( difficulty == "hard"){
-        campSize = 49;
         classAdd = "camp-cell-7";
-        camp(campSize);
+        camp(49);
     }
 })
 

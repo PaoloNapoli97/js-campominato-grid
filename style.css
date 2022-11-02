@@ -62,12 +62,18 @@ footer {
 }
 
 .camp-cell-9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 9);
     height: calc(100% /9);
     border: 1px solid black;
 }
 
 .camp-cell-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 7);
     height: calc(100% / 7);
     border: 1px solid black;
